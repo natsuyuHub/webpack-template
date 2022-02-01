@@ -1,0 +1,17 @@
+@use './variables.scss' as variables;
+
+.componentClass {
+	background-color: variables.$colorBackground;
+}
+
+$color: #aaa666;
+h1 {
+	color: $color;
+	font-size: medium;
+}
+
+p {
+	color: #bbb;
+	font-size: large;
+}
+
